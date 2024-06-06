@@ -1,0 +1,12 @@
+{
+  "name": "projecthtp.backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm start"
+  },
+  "author": "Shreya",
+  "license": "ISC"
+}

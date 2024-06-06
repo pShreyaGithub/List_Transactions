@@ -1,0 +1,92 @@
+.transactions-page {
+  margin: 20px;
+  padding: 20px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  
+}
+
+.search-container input {
+  padding: 5px;
+  font-size: 16px;
+  width: 40%;
+  border: 1px solid #050303;  
+}
+
+.search-container select {
+  padding: 5px;
+  font-size: 16px;
+  width: 25%;
+}
+
+.statistics-container {
+  margin-bottom: 20px;
+}
+
+.statistics-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 2px solid #050303;
+  background-color: #90ccd6;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.statistics-box div {
+  flex: 1;
+  text-align: center;
+}
+
+.transactions-container {
+  border: 1px solid #110f0f;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.transactions-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transactions-table th, .transactions-table td {
+  border: 1px solid #130b0b;
+  padding: 10px;
+  text-align: center;
+}
+
+.transactions-table th {
+  background-color: #5c87b6;
+}
+
+.empty-row {
+  height: 18px; /* Adjust height as needed to maintain consistent row height */
+  background-color: #bacfe4;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.pagination-container button {
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border: 1px solid #050303;
+}
+
+.pagination-container span {
+  font-size: 16px;
+  line-height: 36px;
+  border: 1px solid #050303;
+}
+
+.head{
+  margin-top: -10px;
+}
